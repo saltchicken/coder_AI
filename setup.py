@@ -17,5 +17,5 @@ setuptools.setup(
     # },
     # license='MIT',
     py_modules=['coder_AI'],
-    install_requires=['openai', 'langchain', 'dotenv'],
+    install_requires=['openai', 'langchain', 'python-dotenv'],
 )
