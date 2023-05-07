@@ -41,7 +41,7 @@ def generate_code(LANGUAGE, GOAL, TOKEN):
 
 if __name__ == "__main__":
     load_dotenv()
-    TOKEN = os.getenv('OPENAI_KEY')
+    TOKEN = os.getenv('OPENAI_API_KEY')
     result = generate_code("Python", "Write a replacement for virtual audio cable in python using pyaudio", TOKEN)
     print(result['code'])
     print(result['filename'].strip())
